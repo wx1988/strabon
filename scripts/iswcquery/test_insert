@@ -1,0 +1,11 @@
+INSERT DATA
+{
+?e rdf:type ?e
+}
+where{
+?e rdf:type event:Event;
+    geo:hasGeomeotry ?p.
+?po geo:hasGeomeotry ?bo.
+BIND(MIN(strdf:distance(?p,?bo)) as ?d
+
+}

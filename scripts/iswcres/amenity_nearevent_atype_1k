@@ -1,0 +1,32 @@
+http://students.cse.tamu.edu/xingwang/semanticweb/osmparking    "13"^^http://www.w3.org/2001/XMLSchema#integer       "4"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmbus_station        "19"^^http://www.w3.org/2001/XMLSchema#integer       "5"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmfuel       "54"^^http://www.w3.org/2001/XMLSchema#integer       "32"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmschool     "63"^^http://www.w3.org/2001/XMLSchema#integer       "40"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmpolice     "15"^^http://www.w3.org/2001/XMLSchema#integer       "9"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmcafe       "4"^^http://www.w3.org/2001/XMLSchema#integer"3"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmplace_of_worship   "38"^^http://www.w3.org/2001/XMLSchema#integer       "24"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmhospital   "40"^^http://www.w3.org/2001/XMLSchema#integer       "11"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmbank       "21"^^http://www.w3.org/2001/XMLSchema#integer       "9"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmrestaurant "25"^^http://www.w3.org/2001/XMLSchema#integer       "14"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmpost_office        "14"^^http://www.w3.org/2001/XMLSchema#integer       "4"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmkindergarten       "2"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmcinema     "2"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmembassy    "2"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmbench      "1"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmcar_wash   "4"^^http://www.w3.org/2001/XMLSchema#integer"2"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmfire_station       "12"^^http://www.w3.org/2001/XMLSchema#integer       "2"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmnightclub  "4"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmbicycle_parking    "2"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmarts_centre        "4"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmtelephone  "8"^^http://www.w3.org/2001/XMLSchema#integer"3"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmpharmacy   "5"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmswimming_pool      "3"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmfountain   "3"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmemergency_phone    "4"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmtaxi       "5"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmvending_machine    "1"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmtoilets    "4"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmwaste_basket       "4"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmmarketplace        "1"^^http://www.w3.org/2001/XMLSchema#integer        "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/osmstudio     "2"^^http://www.w3.org/2001/XMLSchema#integer"1"^^http://www.w3.org/2001/XMLSchema#integer
+

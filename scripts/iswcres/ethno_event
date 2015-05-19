@@ -1,0 +1,10 @@
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#pashtun     "25322"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#tajik    "4390"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#none   "1264"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#hazara   "246"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#uzbek    "117"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#aimak    "268"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#baloch   "7"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#turkmen  "3"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#brahui   "6"^^http://www.w3.org/2001/XMLSchema#integer
+

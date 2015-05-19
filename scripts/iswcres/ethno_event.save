@@ -1,0 +1,8 @@
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#push     "13094"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#sparse   "601"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#tajik    "2568"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#baloch   "1"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#uzbek    "61"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#aimak    "167"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#hazara   "79"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#brahui   "3"^^http://www.w3.org/2001/XMLSchema#integer

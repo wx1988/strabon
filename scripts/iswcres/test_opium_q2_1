@@ -1,0 +1,5 @@
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#vh   "1906"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#vl   "801"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#h    "184"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#m    "58"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#l    "27"^^http://www.w3.org/2001/XMLSchema#integer

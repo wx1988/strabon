@@ -1,0 +1,7 @@
+PREFIX  osm:    <http://students.cse.tamu.edu/xingwang/semanticweb/osm>
+
+select ?t (count(?p) as ?n)
+where{
+    ?p osm:amenity ?t.
+}
+group by ?t

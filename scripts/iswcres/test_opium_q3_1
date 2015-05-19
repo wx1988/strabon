@@ -1,0 +1,6 @@
+t	en
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#vh	"1065"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#vl	"413"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#h	"106"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#m	"34"^^http://www.w3.org/2001/XMLSchema#integer
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#l	"15"^^http://www.w3.org/2001/XMLSchema#integer

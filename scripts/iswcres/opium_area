@@ -1,0 +1,6 @@
+t	total_area
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#m	"3.20302050513592"^^http://www.w3.org/2001/XMLSchema#double
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#h	"3.5143888320549705"^^http://www.w3.org/2001/XMLSchema#double
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#vl	"12.454596556211111"^^http://www.w3.org/2001/XMLSchema#double
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#l	"0.6831208791800119"^^http://www.w3.org/2001/XMLSchema#double
+http://students.cse.tamu.edu/xingwang/semanticweb/mech#vh	"6.294173291944071"^^http://www.w3.org/2001/XMLSchema#double

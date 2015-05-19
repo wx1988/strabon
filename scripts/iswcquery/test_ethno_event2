@@ -1,0 +1,17 @@
+PREFIX	mech:	<http://students.cse.tamu.edu/xingwang/semanticweb/mech#>
+PREFIX	sigacts:	<http://students.cse.tamu.edu/xingwang/semanticweb/sigacts#>
+PREFIX  strdf:  <http://strdf.di.uoa.gr/ontology#>
+PREFIX  geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+select ?eth (count(?e) as ?n)
+where
+{
+    ?e sigacts:type sigacts:ENEMY_ACTION;
+        geo:hasGeometry ?p.
+    ?r mech:ethnic ?eth;
+        strdf:hasGeometry ?pg.
+    FILTER( strdf:contains(?pg, ?p))
+}
+group by ?eth
+
+

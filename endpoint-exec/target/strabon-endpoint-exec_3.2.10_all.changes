@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Tue, 21 Apr 2015 11:42:55 -0500
+Source: Strabon
+Binary: Strabon
+Architecture: all
+Version: 3.2.10
+Distribution: Mozilla v2.0 Public Liscence
+Urgency: low
+Maintainer: Manolis Karpathiotakis <manos.karpathiotakis@epfl.ch>, Kostis Kyzirakos <Kostis.Kyzirakos@cwi.nl>, Charalambos Nikolaou <charnik@di.uoa.gr>, Konstantina Bereta <konstantina.bereta@di.uoa.gr>, Georgios Garbis <ggarbis@di.uoa.gr>,  Dimitrios Bilidas <dbilidas@di.uoa.gr>, Stella Giannakopoulou <sgian@di.uoa.gr>, Panayiotis Smeros <psmeros@di.uoa.gr>, Kalliroi Dogani <kallirroi@di.uoa.gr>, Maria Karpathiotaki <mkarpat@di.uoa.gr>, Ioannis Vlachopoulos <johnvl@di.uoa.gr>, Dimitrianos Savva <dimis@di.uoa.gr>, Georgios Stamoulis <gstam@di.uoa.gr>, Kanela Kaligosi <kalkan@di.uoa.gr>
+Changed-By: Manolis Karpathiotakis <manos.karpathiotakis@epfl.ch>, Kostis Kyzirakos <Kostis.Kyzirakos@cwi.nl>, Charalambos Nikolaou <charnik@di.uoa.gr>, Konstantina Bereta <konstantina.bereta@di.uoa.gr>, Georgios Garbis <ggarbis@di.uoa.gr>,  Dimitrios Bilidas <dbilidas@di.uoa.gr>, Stella Giannakopoulou <sgian@di.uoa.gr>, Panayiotis Smeros <psmeros@di.uoa.gr>, Kalliroi Dogani <kallirroi@di.uoa.gr>, Maria Karpathiotaki <mkarpat@di.uoa.gr>, Ioannis Vlachopoulos <johnvl@di.uoa.gr>, Dimitrianos Savva <dimis@di.uoa.gr>, Georgios Stamoulis <gstam@di.uoa.gr>, Kanela Kaligosi <kalkan@di.uoa.gr>
+Description:
+ Strabon - Strabon endpoint executable
+Changes:
+ Strabon (3.2.10) Mozilla v2.0 Public Liscence; urgency=low
+Checksums-Sha1:
+ b74f577547ccd283e0f58bd8cf3237889a8b8578 38379984 strabon-endpoint-exec_3.2.10_all.deb
+Checksums-Sha256:
+ 430ff8fb67553bed77186e7509fd5701bd39d0fc56514cd0c835c4b814e22faa 38379984 strabon-endpoint-exec_3.2.10_all.deb
+Files:
+ e452ca4a2d19cbb00c16687a2cd82762 38379984 strabon-endpoint optional strabon-endpoint-exec_3.2.10_all.deb

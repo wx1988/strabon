@@ -1,0 +1,21 @@
+PREFIX mech:	<http://students.cse.tamu.edu/xingwang/semanticweb/mech#>
+PREFIX strdf:  <http://strdf.di.uoa.gr/ontology#> 
+PREFIX sigacts:	<http://students.cse.tamu.edu/xingwang/semanticweb/sigacts#>
+PREFIX dt:	<http://www.w3.org/2006/time#>
+PREFIX event:  <http://purl.org/NET/c4dm/event.owl#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX  xsd:    <http://www.w3.org/2001/XMLSchema#> 
+
+select ?t (count(?e) as ?en)
+where{
+    ?e rdf:type event:Event;
+        sigacts:type sigacts:EXPLOSIVE_HAZARD;
+        geo:hasGeometry ?p;
+        dt:inXSDDateTime ?dt.
+    ?tb mech:opiumprod ?t;
+        strdf:hasGeometry ?reg.
+    FILTER( strdf:contains( ?reg, ?p) )
+    FILTER( (?dt >"2011-04-01T00:00:00"^^xsd:dateTime && ?dt <"2011-06-01T00:00:00"^^xsd:dateTime ) || (?dt >"2012-04-01T00:00:00"^^xsd:dateTime && ?dt <"2012-06-01T00:00:00"^^xsd:dateTime ) ) 
+}
+group by ?t

@@ -1,0 +1,13 @@
+PREFIX	mech:	<http://students.cse.tamu.edu/xingwang/semanticweb/mech#>
+PREFIX  strdf:  <http://strdf.di.uoa.gr/ontology#> 
+PREFIX	sigacts:	<http://students.cse.tamu.edu/xingwang/semanticweb/sigacts#>
+PREFIX  dt:	<http://www.w3.org/2006/time#>
+PREFIX  event:  <http://purl.org/NET/c4dm/event.owl#>
+PREFIX  rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+select ?tb ?t ?reg
+where{
+    ?tb mech:talibancontrol ?t;
+        strdf:hasGeometry ?reg.
+}

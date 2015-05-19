@@ -1,0 +1,6 @@
+PREFIX  osm:    <http://students.cse.tamu.edu/xingwang/semanticweb/osm>
+
+select ?p
+where{
+    ?p osm:amenity osm:bank.
+}

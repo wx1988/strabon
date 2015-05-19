@@ -1,0 +1,58 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix :   <http://example.org/book/> .
+@prefix ns: <http://example.org/ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rtf-schema#> .
+@prefix ex: <http://www.example.org/POI#> .
+@prefix geo:    <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:     <http://www.opengis.net/ont/sf#> .
+@prefix virtrdf:    <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix strdf:  <http://strdf.di.uoa.gr/ontology#> .
+
+@prefix	dt:	<http://www.w3.org/2006/time#>.
+@prefix	event:	<http://purl.org/NET/c4dm/event.owl#>.
+@prefix	rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+:book1  dc:title    "SPARQL Tutorial" .
+:book1  ns:price    "42"^^xsd:integer .
+:book2  dc:title    "The Semantic Web" .
+:book2  ns:price    23 .
+
+ex:WM a ex:Monument;
+ rdfs:label "WM";
+ geo:hasGeometry ex:WMPoint .
+ex:WMPoint a sf:Point;
+ geo:asWKT "POINT(67 32)"^^geo:wktLiteral .
+ex:P2 a sf:Point;
+ geo:asWKT "POINT(67 32)"^^virtrdf:Geometry .
+ex:P3 a sf:Point;
+ geo:asWKT "POINT(67 32)"^^strdf:WKT .
+
+:PP1 a sf:Point;
+    strdf:hasGeometry "POINT(67 32)"^^strdf:WKT .
+:PP2 a sf:Ponit;
+    strdf:hasGeometry "POINT(69 32)"^^strdf:WKT .
+:PP3 a sf:Point;
+    strdf:hasGeometry "POINT(66.25 32)"^^strdf:WKT .
+:PP4 a sf:Point;
+    strdf:hasGeometry "POINT(67 32)"^^strdf:WKT .
+
+:PL1 strdf:hasGeometry "POLYGON((66 31, 68 31, 68 33, 66 33, 66 31),(66.5 31.5, 67.5 31.5,67.5 32.5,66.5 32.5, 66.5 31.5))"^^strdf:WKT .
+:PL2 strdf:hasGeometry "POLYGON((67 31, 68 31, 68 33, 67 33, 67 31))"^^strdf:WKT .
+
+:E2011_February_15
+	rdf:type	event:Event;
+	geo:hasGeometry	"POINT(64.744360 32.056280)"^^strdf:WKT;
+	dt:inXSDDateTime	"2011-02-01T01:35:00"^^xsd:dateTime.
+
+:E2011_February_16
+	rdf:type	event:Event;
+	geo:hasGeometry	"POINT(64.744360 32.056280)"^^strdf:WKT;
+	dt:inXSDDateTime	"2011-02-01T01:45:00"^^xsd:dateTime.
+
+:E2012_February_16
+	rdf:type	event:Event;
+	geo:hasGeometry	"POINT(64.744360 32.056280)"^^strdf:WKT;
+	dt:inXSDDateTime	"2012-02-01T01:45:00"^^xsd:dateTime.
+
+

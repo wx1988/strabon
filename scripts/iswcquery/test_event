@@ -1,0 +1,10 @@
+PREFIX	mech:	<http://students.cse.tamu.edu/xingwang/semanticweb/mech#>
+PREFIX	sigacts:	<http://students.cse.tamu.edu/xingwang/semanticweb/sigacts#>
+PREFIX  dt:	<http://www.w3.org/2006/time#>
+
+select ?e ?dt
+where{
+    ?e sigacts:type sigacts:ENEMY_ACTION;
+        dt:inXSDDateTime ?dt.
+    FILTER("2012-08-01T00:00:00" <= str(?dt)).
+}

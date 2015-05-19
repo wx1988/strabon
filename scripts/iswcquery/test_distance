@@ -1,0 +1,12 @@
+PREFIX  sf: <http://www.opengis.net/ont/sf#>
+PREFIX  :   <http://example.org/book/>
+PREFIX  strdf:  <http://strdf.di.uoa.gr/ontology#>
+PREFIX  ogc:    <http://www.opengis.net/def/uom/OGC/1.0/>
+
+select ?pn (strdf:distance(?pos, strdf:boundary(?poly), ogc:degree) as ?d)
+where
+{
+    ?pn a sf:Point;
+        strdf:hasGeometry ?pos.
+    :PL1 strdf:hasGeometry ?poly.
+}

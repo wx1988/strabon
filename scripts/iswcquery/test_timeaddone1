@@ -1,0 +1,13 @@
+PREFIX  sigacts:	<http://students.cse.tamu.edu/xingwang/semanticweb/sigacts#>
+PREFIX  dt:	<http://www.w3.org/2006/time#>
+PREFIX  event:  <http://purl.org/NET/c4dm/event.owl#>
+PREFIX  rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  xsd:    <http://www.w3.org/2001/XMLSchema#> 
+PREFIX  strdf:  <http://strdf.di.uoa.gr/ontology#> 
+
+select ?e ?dt
+where{ 
+    ?e rdf:type event:Event;
+        dt:inXSDDateTime ?dt.
+    FILTER(?dt > "2011-01-01T00:00:00"^^xsd:dateTime)
+}

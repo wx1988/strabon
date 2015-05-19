@@ -1,0 +1,15 @@
+PREFIX  osm:    <http://students.cse.tamu.edu/xingwang/semanticweb/osm>
+PREFIX  strdf:  <http://strdf.di.uoa.gr/ontology#>
+PREFIX  geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX  ogc:    <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX  event:  <http://purl.org/NET/c4dm/event.owl#>
+PREFIX  rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select (count(distinct ?p) as ?an)
+where{
+    ?p osm:amenity ?t;
+        strdf:hasGeometry ?ap.
+    ?e rdf:type event:Event;
+        geo:hasGeometry ?ep.
+    FILTER( strdf:distance( ?ap, ?ep, ogc:degree) < 0.0008932 )
+}

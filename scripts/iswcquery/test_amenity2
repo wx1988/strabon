@@ -1,0 +1,11 @@
+PREFIX  osm:    <http://students.cse.tamu.edu/xingwang/semanticweb/osm>
+PREFIX  geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX  sf: <http://www.opengis.net/def/sf>
+PREFIX  strdf:  <http://strdf.di.uoa.gr/ontology#>
+
+select ?p ?pos
+where{
+    ?p osm:amenity osm:bank;
+    strdf:hasGeometry ?pos .
+    FILTER( strdf:contains("POLYGON((72 33,74 33,74 34,72 34,72 33))"^^strdf:WKT,?pos)) .
+}
